@@ -1,0 +1,22 @@
+Use "play" or "p" to play the game.
+Play command looks like this:
+p <starting square><direction> <word>
+Starting square must first have its letter position, then its number position.
+Direction can only be V or >
+Examples:
+play D5V goose
+p f10v geese
+p g7> goose
+
+"skip" or "s"
+This skips your move.
+
+"ex" or "exchange"
+Include all tiles that you no longer want in your inventory and exchanged them.
+After the command, put all the tiles isolated by spaces.
+Examples:
+skip a h g e
+s l p o s
+
+"end"
+In the endgame, once you can no longer think of anything to play or once you no longer have any tiles left, type this in and watch as the bot continues playing on its own.
